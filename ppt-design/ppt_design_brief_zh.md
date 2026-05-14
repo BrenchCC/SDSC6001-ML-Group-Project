@@ -79,7 +79,7 @@
 
 - 标题：Transformer 如何学会预条件梯度下降？
 - 副标题：NeurIPS 2023 论文复现与课程规模结构验证
-- 信息：课程名、小组成员、日期
+- 信息：SDSC6001 Machine Learning；Duan Yixuan、Mingjing XING、Wenyue Yang、Jingwen Luo；日期
 - 视觉：简洁标题 + 线性 Transformer / 优化迭代概念背景图
 
 ### 2. 选题与课程方向匹配

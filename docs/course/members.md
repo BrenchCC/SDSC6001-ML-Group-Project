@@ -1,4 +1,5 @@
+
+- Duan Yixuan 72542270 段一璇 72542270
+- Mingjing XING 72542103 刑明静 72542103
+- Wenyue Yang 72542268 杨文悦 72542268
 - Jingwen Luo 72542176  罗靖炆 72542176
-- xxx 
-- xxx
-- xxx
