@@ -1,0 +1,65 @@
+[
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_adam_pnull_loss_plot",
+    "paper_use": "Log loss curve for the constrained Adam setting",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_adam_pnull_loss_plot.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_adam_pnull_loss_plot.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_dist_to_id_adam_pnull_A0",
+    "paper_use": "Dual distance curve for A0",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_dist_to_id_adam_pnull_A0.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_dist_to_id_adam_pnull_A0.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_dist_to_id_adam_pnull_A1",
+    "paper_use": "Dual distance curve for A1",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_dist_to_id_adam_pnull_A1.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_dist_to_id_adam_pnull_A1.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_dist_to_id_adam_pnull_A2",
+    "paper_use": "Dual distance curve for A2",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_dist_to_id_adam_pnull_A2.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_dist_to_id_adam_pnull_A2.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_pnull_A0",
+    "paper_use": "Final rotated heatmap for A0",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_pnull_A0.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_pnull_A0.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_pnull_A1",
+    "paper_use": "Final rotated heatmap for A1",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_pnull_A1.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_pnull_A1.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_pnull_A2",
+    "paper_use": "Final rotated heatmap for A2",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_pnull_A2.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures/rotation_demonstration_pnull_A2.png"
+    }
+  }
+]

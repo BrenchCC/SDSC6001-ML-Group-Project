@@ -1,0 +1,34 @@
+[
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_adam_pnull_loss_plot_smooth",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures_smoothed/rotation_demonstration_adam_pnull_loss_plot_smooth.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures_smoothed/rotation_demonstration_adam_pnull_loss_plot_smooth.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_dist_to_id_adam_pnull_A0_smooth",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures_smoothed/rotation_demonstration_dist_to_id_adam_pnull_A0_smooth.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures_smoothed/rotation_demonstration_dist_to_id_adam_pnull_A0_smooth.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_dist_to_id_adam_pnull_A1_smooth",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures_smoothed/rotation_demonstration_dist_to_id_adam_pnull_A1_smooth.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures_smoothed/rotation_demonstration_dist_to_id_adam_pnull_A1_smooth.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam_p0",
+    "basename": "rotation_demonstration_dist_to_id_adam_pnull_A2_smooth",
+    "paths": {
+      "pdf": "results/rotation_adam_p0/cpu/figures_smoothed/rotation_demonstration_dist_to_id_adam_pnull_A2_smooth.pdf",
+      "png": "results/rotation_adam_p0/cpu/figures_smoothed/rotation_demonstration_dist_to_id_adam_pnull_A2_smooth.png"
+    }
+  }
+]

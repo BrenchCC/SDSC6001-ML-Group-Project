@@ -1,0 +1,22 @@
+[
+  {
+    "experiment": "variable_n",
+    "basename": "3-step-variable-N-plot",
+    "paper_use": "Context-length sweep loss comparison",
+    "paths": {
+      "pdf": "results/variable_n/cpu/figures/3-step-variable-N-plot.pdf",
+      "png": "results/variable_n/cpu/figures/3-step-variable-N-plot.png"
+    }
+  },
+  {
+    "experiment": "variable_n",
+    "basename": "extension_variable_n_analysis_package",
+    "paper_use": "Report-ready CSV tables and Chinese analysis for the context-length extension experiment",
+    "paths": {
+      "summary_csv": "results/variable_n/cpu/figures/extension_variable_n_summary.csv",
+      "relative_csv": "results/variable_n/cpu/figures/extension_variable_n_relative.csv",
+      "analysis_report": "results/variable_n/cpu/figures/extension_variable_n_report.md",
+      "artifact_index": "results/variable_n/cpu/figures/extension_variable_n_artifact_index.json"
+    }
+  }
+]

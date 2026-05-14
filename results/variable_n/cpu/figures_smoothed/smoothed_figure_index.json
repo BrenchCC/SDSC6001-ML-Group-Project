@@ -1,0 +1,10 @@
+[
+  {
+    "experiment": "variable_n",
+    "basename": "3-step-variable-N-plot_smooth",
+    "paths": {
+      "pdf": "results/variable_n/cpu/figures_smoothed/3-step-variable-N-plot_smooth.pdf",
+      "png": "results/variable_n/cpu/figures_smoothed/3-step-variable-N-plot_smooth.png"
+    }
+  }
+]

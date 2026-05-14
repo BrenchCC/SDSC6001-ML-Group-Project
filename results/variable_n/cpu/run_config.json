@@ -1,0 +1,88 @@
+{
+  "experiment": "variable_n",
+  "stage": "all",
+  "preset": "cpu",
+  "device": "cpu",
+  "result_root": "results",
+  "data_root": "data",
+  "paper_reference": "CPU-scale context-length extension experiment",
+  "optimizer_name": "adamw",
+  "mode": "normal",
+  "n_layer": 3,
+  "n_head": 1,
+  "dimension": 5,
+  "context_length": 20,
+  "batch_size": 512,
+  "eval_batch_size": 1024,
+  "validation_batch_size": 512,
+  "baseline_eval_size": 128,
+  "init_var": 0.0001,
+  "shape_k": 0.1,
+  "learning_rate": 0.01,
+  "max_iters": 600,
+  "checkpoint_stride": 1,
+  "log_stride": 100,
+  "seeds": [
+    0,
+    1
+  ],
+  "clip_value": 0.01,
+  "clip_mode": "per_matrix",
+  "beta1": 0.99,
+  "beta2": 0.99,
+  "momentum": 0.9,
+  "resample_interval": 1,
+  "fixed_train_batch": false,
+  "zero_p_after_step": false,
+  "rotation_diagonal": [
+    1.0,
+    1.0,
+    0.5,
+    0.25,
+    1.0
+  ],
+  "variable_layers": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "variable_contexts": [
+    4,
+    8,
+    12,
+    16,
+    20
+  ],
+  "eta_grid_gd": [
+    0.001,
+    0.002,
+    0.004,
+    0.008,
+    0.01,
+    0.02,
+    0.04,
+    0.08,
+    0.16
+  ],
+  "eta_grid_pgd": [
+    0.001,
+    0.002,
+    0.004,
+    0.008,
+    0.01,
+    0.02,
+    0.04,
+    0.08,
+    0.16
+  ],
+  "lbfgs_history_size": 600,
+  "lbfgs_max_iter": 4,
+  "lr_decay_steps": [
+    200,
+    400
+  ],
+  "lr_decay_factor": 0.5,
+  "line_dpi": 240,
+  "heatmap_dpi": 300
+}

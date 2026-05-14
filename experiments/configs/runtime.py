@@ -239,8 +239,8 @@ def get_preset_table() -> Dict[str, Dict[str, Dict[str, Any]]]:
                 "context_length": 20,
                 "batch_size": 2048,
                 "learning_rate": 0.05,
-                "max_iters": 3000,
-                "checkpoint_stride": 100,
+                "max_iters": 4000,
+                "checkpoint_stride": 1,
                 "log_stride": 100,
                 "seeds": [0, 1],
                 "clip_value": 0.01,
@@ -248,7 +248,7 @@ def get_preset_table() -> Dict[str, Dict[str, Dict[str, Any]]]:
                 "beta1": 0.99,
                 "beta2": 0.9,
                 "resample_interval": 50,
-                "lr_decay_steps": [1000, 2000],
+                "lr_decay_steps": [1500, 3000],
                 "lr_decay_factor": 0.5,
             },
         },
@@ -306,8 +306,8 @@ def get_preset_table() -> Dict[str, Dict[str, Dict[str, Any]]]:
                 "context_length": 20,
                 "batch_size": 2048,
                 "learning_rate": 0.02,
-                "max_iters": 3000,
-                "checkpoint_stride": 100,
+                "max_iters": 4000,
+                "checkpoint_stride": 1,
                 "log_stride": 100,
                 "seeds": [0, 1],
                 "clip_value": 0.01,
@@ -316,7 +316,7 @@ def get_preset_table() -> Dict[str, Dict[str, Dict[str, Any]]]:
                 "beta2": 0.9,
                 "resample_interval": 50,
                 "zero_p_after_step": True,
-                "lr_decay_steps": [1000, 2000],
+                "lr_decay_steps": [1500, 3000],
                 "lr_decay_factor": 0.5,
             },
         },
@@ -462,7 +462,7 @@ def get_preset_table() -> Dict[str, Dict[str, Dict[str, Any]]]:
                 "baseline_eval_size": 128,
                 "learning_rate": 0.01,
                 "max_iters": 600,
-                "checkpoint_stride": 50,
+                "checkpoint_stride": 1,
                 "log_stride": 100,
                 "seeds": [0, 1],
                 "clip_value": 0.01,
@@ -502,6 +502,8 @@ def build_config(
     max_iters: Optional[int] = None,
     batch_size: Optional[int] = None,
     stride: Optional[int] = None,
+    checkpoint_stride: Optional[int] = None,
+    log_stride: Optional[int] = None,
     seeds: Optional[List[int]] = None
 ) -> ExperimentConfig:
     """Build a fully expanded experiment config from preset and CLI overrides.
@@ -516,6 +518,8 @@ def build_config(
         max_iters: Optional override for the number of iterations.
         batch_size: Optional override for the training batch size.
         stride: Optional override for checkpoint and log stride.
+        checkpoint_stride: Optional override for checkpoint and curve-recording stride.
+        log_stride: Optional override for runtime log stride.
         seeds: Optional override for the random seed list.
     """
 
@@ -533,6 +537,10 @@ def build_config(
     if stride is not None:
         payload["checkpoint_stride"] = stride
         payload["log_stride"] = stride
+    if checkpoint_stride is not None:
+        payload["checkpoint_stride"] = checkpoint_stride
+    if log_stride is not None:
+        payload["log_stride"] = log_stride
     if seeds:
         payload["seeds"] = seeds
 

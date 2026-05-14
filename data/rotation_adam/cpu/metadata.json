@@ -1,0 +1,16 @@
+{
+  "experiment": "rotation_adam",
+  "preset": "cpu",
+  "eval_seed": 99,
+  "rotation_diagonal": [
+    1.0,
+    1.0,
+    0.5,
+    0.25,
+    1.0
+  ],
+  "seeds": [
+    0,
+    1
+  ]
+}

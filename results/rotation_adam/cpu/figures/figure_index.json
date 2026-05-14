@@ -1,0 +1,110 @@
+[
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_adam_loss_plot",
+    "paper_use": "Figure log loss for the general linear transformer setting",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_loss_plot.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_loss_plot.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_dist_to_id_adam_B0",
+    "paper_use": "Distance-to-identity curve for B0",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_B0.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_B0.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_dist_to_id_adam_B1",
+    "paper_use": "Distance-to-identity curve for B1",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_B1.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_B1.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_dist_to_id_adam_A0",
+    "paper_use": "Distance-to-identity curve for A0",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_A0.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_A0.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_dist_to_id_adam_A1",
+    "paper_use": "Distance-to-identity curve for A1",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_A1.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_A1.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_dist_to_id_adam_A2",
+    "paper_use": "Distance-to-identity curve for A2",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_A2.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam_A2.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_dist_to_id_adam",
+    "paper_use": "Combined distance panel for the Adam rotation experiment",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_dist_to_id_adam.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_adam_B0",
+    "paper_use": "Final matrix heatmap for B0",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_B0.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_B0.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_adam_A0",
+    "paper_use": "Final matrix heatmap for A0",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_A0.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_A0.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_adam_B1",
+    "paper_use": "Final matrix heatmap for B1",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_B1.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_B1.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_adam_A1",
+    "paper_use": "Final matrix heatmap for A1",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_A1.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_A1.png"
+    }
+  },
+  {
+    "experiment": "rotation_adam",
+    "basename": "rotation_demonstration_adam_A2",
+    "paper_use": "Final matrix heatmap for A2",
+    "paths": {
+      "pdf": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_A2.pdf",
+      "png": "results/rotation_adam/cpu/figures/rotation_demonstration_adam_A2.png"
+    }
+  }
+]
